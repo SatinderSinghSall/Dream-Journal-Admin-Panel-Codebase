@@ -32,6 +32,7 @@ A full-stack web application with **admin panel** and **user-facing frontend** f
 
 ## Project Structure
 
+```
 ├── 📁 node_modules/ 🚫 (auto-hidden)
 ├── 📁 public/
 │ └── 🖼️ vite.svg
@@ -59,6 +60,7 @@ A full-stack web application with **admin panel** and **user-facing frontend** f
 ├── 📄 package-lock.json
 ├── 📄 package.json
 └── 📄 vite.config.js
+```
 
 ---
 
@@ -80,6 +82,10 @@ A full-stack web application with **admin panel** and **user-facing frontend** f
 ---
 
 Made with ❤️ by Satinder Singh Sall
+
+```
+
+```
 
 ```
 
