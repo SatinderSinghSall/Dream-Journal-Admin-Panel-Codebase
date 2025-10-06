@@ -4,10 +4,14 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Users from "./pages/Users";
 import Dreams from "./pages/Dreams";
+
+//! To run the backend for DEVELOPMENT -> npm start
+//! To run the backend for PRODUCTION -> npm run build & npm run preview
 
 const PrivateRoute = ({ children }) => {
   const token = localStorage.getItem("adminToken");
