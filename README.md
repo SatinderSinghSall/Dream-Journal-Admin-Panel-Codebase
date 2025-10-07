@@ -33,33 +33,39 @@ A full-stack web application with **admin panel** and **user-facing frontend** f
 ## Project Structure
 
 ```
-├── 📁 node_modules/ 🚫 (auto-hidden)
-├── 📁 public/
-│ └── 🖼️ vite.svg
-├── 📁 src/
-│ ├── 📁 api/
-│ │ └── 📄 api.js
-│ ├── 📁 assets/
-│ │ └── 🖼️ react.svg
-│ ├── 📁 components/
-│ │ ├── 📄 Navbar.jsx
-│ │ └── 📄 Sidebar.jsx
-│ ├── 📁 pages/
-│ │ ├── 📄 Dashboard.jsx
-│ │ ├── 📄 Dreams.jsx
-│ │ ├── 📄 Login.jsx
-│ │ └── 📄 Users.jsx
-│ ├── 🎨 App.css
-│ ├── 📄 App.jsx
-│ ├── 🎨 index.css
-│ └── 📄 main.jsx
-├── 🚫 .gitignore
-├── 📖 README.md
-├── 📄 eslint.config.js
-├── 🌐 index.html
-├── 📄 package-lock.json
-├── 📄 package.json
-└── 📄 vite.config.js
+📁 admin/
+│   ├── 📁 .git/ 🚫 (auto-hidden)
+│   ├── 📁 dist/ 🚫 (auto-hidden)
+│   ├── 📁 node_modules/ 🚫 (auto-hidden)
+│   ├── 📁 public/
+│   │   └── 🖼️ vite.svg
+│   ├── 📁 src/
+│   │   ├── 📁 api/
+│   │   │   └── 📄 api.js
+│   │   ├── 📁 assets/
+│   │   │   └── 🖼️ react.svg
+│   │   ├── 📁 components/
+│   │   │   ├── 📄 Navbar.jsx
+│   │   │   └── 📄 Sidebar.jsx
+│   │   ├── 📁 pages/
+│   │   │   ├── 📄 Dashboard.jsx
+│   │   │   ├── 📄 Dreams.jsx
+│   │   │   ├── 📄 Login.jsx
+│   │   │   └── 📄 Users.jsx
+│   │   ├── 🎨 App.css
+│   │   ├── 📄 App.jsx
+│   │   ├── 🎨 index.css
+│   │   └── 📄 main.jsx
+│   ├── 📄 .env.development 🚫 (auto-hidden)
+│   ├── 📄 .env.production 🚫 (auto-hidden)
+│   ├── 🚫 .gitignore
+│   ├── 📖 README.md
+│   ├── 📄 eslint.config.js
+│   ├── 🌐 index.html
+│   ├── 📄 package-lock.json
+│   ├── 📄 package.json
+│   ├── 📄 vercel.json
+│   └── 📄 vite.config.js
 ```
 
 ---
