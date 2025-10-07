@@ -10,7 +10,7 @@ import Dashboard from "./pages/Dashboard";
 import Users from "./pages/Users";
 import Dreams from "./pages/Dreams";
 
-//! To run the backend for DEVELOPMENT -> npm start
+//! To run the backend for DEVELOPMENT -> npm run dev
 //! To run the backend for PRODUCTION -> npm run build & npm run preview
 
 const PrivateRoute = ({ children }) => {
